@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>User Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>User Directory Dashboard</h1>
+<p>Fetch and explore user data from API</p>
+</header>
+
+<div class="container">
+
+<div class="controls">
+<input type="text" id="search" placeholder="Search user...">
+<button id="reloadBtn">Reload Data</button>
+</div>
+
+<p id="loading">Loading users...</p>
+
+<div class="main">
+
+<div class="usersPanel">
+<h3>Users</h3>
+<ul id="userList"></ul>
+</div>
+
+<div class="detailsPanel">
+<h3>User Details</h3>
+<div id="details">
+<p>Select a user to view details</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
